@@ -193,7 +193,27 @@ ModelImporter:
     13700002: newVegas:Elvis_BrowsAnimGeo
     13700004: newVegas:Elvis_EyesAnimGeo
     13700006: newVegas:Elvis_MouthAnimGeo
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Character_Fat_Elvis_body_color
+    second: {fileID: 2100000, guid: dceee9f5b11997e4c962a9116f8cbe0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Elvis_Brows_MAT
+    second: {fileID: 2100000, guid: 1da36d89861ebc542b50256326ea1a35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Elvis_Eyes_MAT
+    second: {fileID: 2100000, guid: 1da36d89861ebc542b50256326ea1a35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Elvis_Mouth_MAT
+    second: {fileID: 2100000, guid: 1da36d89861ebc542b50256326ea1a35, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -213,7 +233,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -270,10 +290,10 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 3
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
